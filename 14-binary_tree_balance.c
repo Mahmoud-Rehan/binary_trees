@@ -22,6 +22,11 @@ int binary_tree_balance(const binary_tree_t *tree)
 }
 
 
+/**
+ * height - Count the height of the left and right sub-tree.
+ * @root: The Pointer to the root of the sub-tree.
+ * Return: The height.
+ */
 
 size_t height(binary_tree_t *root)
 {
